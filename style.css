@@ -112,7 +112,7 @@ nav.sticky .menu-btn{
   height: 100vh;
   width: 100%;
   /* background: url("https://github.com/Kapil987/contactKapil.github.io/blob/main/images/background.png") no-repeat; */
-  background: url("images/background.png") no-repeat;
+  background: url("profile_pic.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -190,8 +190,7 @@ nav.sticky .menu-btn{
 }
 
 /* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
+
 section{
   padding-top: 40px;
 }
@@ -330,13 +329,13 @@ section .button button:hover{
   color: #4070f4;
 }
 
-/* My Services CSS */
-.services .boxes{
+/* My Experiences CSS */
+.experience .boxes{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.services .boxes .box{
+.experience .boxes .box{
   margin: 20px 0;
   width: calc(100% / 3 - 20px);
   text-align: center;
@@ -346,11 +345,11 @@ section .button button:hover{
   cursor: default;
   transition: all 0.4s ease;
 }
-.services .boxes .box:hover{
+.experience .boxes .box:hover{
   background: #4070f4;
   color: #fff;
 }
-.services .boxes .box .icon{
+.experience .boxes .box .icon{
   height: 50px;
   width: 50px;
   /* background: #4070f4; */
@@ -511,7 +510,7 @@ footer .text span a:hover{
     align-items: center;
     width: 100%;
   }
-  .services .boxes .box{
+  .experience .boxes .box{
     margin: 20px 0;
     width: 100%;
   }
