@@ -111,12 +111,11 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  /* background: url("https://github.com/Kapil987/contactKapil.github.io/blob/main/images/background.png") no-repeat; */
   background: url("profile_pic.png") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Helvetica', sans-serif;
 }
 .home .home-content{
   width: 90%;
@@ -128,10 +127,10 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 25px;
-  color: #0E2431;
+  color: #80136d;
 }
 .home .text-two{
-  color: #0E2431;
+  color: ##e82ac8;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -139,12 +138,12 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #4070f4;
+  color: ##e82ac8;
 }
 .home .text-four{
   font-size: 23px;
   margin: 5px 0;
-  color: #0E2431;
+  color: ##e82ac8;
 }
 .home .button{
   margin: 14px 0;
