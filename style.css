@@ -22,7 +22,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #4070f4;
+    background: #6B17F6;
 }
 /* navbar styling */
 nav{
@@ -77,7 +77,7 @@ nav.sticky .menu a:hover{
   color: #7427f5;
 }
 .navbar .media-icons a{
-  color: #4070f4;
+  color: #6B17F6;
   font-size: 18px;
   margin: 0 6px;
 }
@@ -163,7 +163,7 @@ nav.sticky .menu-btn{
 .home .button button:hover{
   border-color: #CCB3F6;
   background-color: #fff;
-  color: #4070f4;
+  color: #6B17F6;
 }
 /* button margin */
 .fcc-btn {
@@ -181,7 +181,7 @@ nav.sticky .menu-btn{
 .fcc-btn:hover{
   border-color: #CCB3F6;
   background-color: #fff;
-  color: #4070f4;
+  color: #6B17F6;
 }
 
 .home .fcc-btn{
@@ -220,7 +220,7 @@ section .title span::after{
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #4070f4;
+  background: #6B17F6;
   left: 0;
   bottom: 0;
 }
@@ -320,11 +320,11 @@ section .button button:hover{
 }
 .skills-details .boxes .topic{
   font-size: 20px;
-  color: #4070f4;
+  color: #6B17F6;
 }
 .skills-details .boxes .per{
   font-size: 60px;
-  color: #4070f4;
+  color: #6B17F6;
 }
 
 /* My Experience CSS */
@@ -344,7 +344,7 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .experience .boxes .box:hover{
-  background: #4070f4;
+  background: #6B17F6;
   color: #fff;
 }
 .experience .boxes .box .icon{
@@ -361,7 +361,7 @@ section .button button:hover{
 }
 .boxes .box:hover .icon{
   background-color: #fff;
-  color: #4070f4;
+  color: #6B17F6;
 }
 .experience .boxes .box:hover .topic,
 .experience .boxes .box:hover p{
@@ -388,7 +388,7 @@ section .button button:hover{
 
 /* Footer CSS */
 footer{
-  background: #4070f4;
+  background: #6B17F6;
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -411,7 +411,7 @@ footer .text span a:hover{
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #4070f4;
+  background: #6B17F6;
   padding: 7px 12px;;
   font-size: 18px;
   border-radius: 6px;
@@ -478,7 +478,7 @@ footer .text span a:hover{
     margin: 10px 0;
   }
   nav.sticky .menu a:hover{
-    color: #4070f4;
+    color: #6B17F6;
   }
   nav .navbar .media-icons{
     display: none;
@@ -525,6 +525,6 @@ footer .text span a:hover{
   }
   .skills-details .boxes .per{
     font-size: 50px;
-    color: #4070f4;
+    color: #6B17F6;
   }
 }
