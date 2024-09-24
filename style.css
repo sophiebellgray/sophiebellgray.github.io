@@ -63,7 +63,7 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
-  color: #0E2431;
+  color: #7427f5;
   padding: 6px 0;
   transition: all 0.4s ease;
 }
@@ -74,7 +74,7 @@ nav.sticky .menu a{
   color: #FFF;
 }
 nav.sticky .menu a:hover{
-  color: #0E2431;
+  color: #7427f5;
 }
 .navbar .media-icons a{
   color: #4070f4;
@@ -111,7 +111,6 @@ nav.sticky .menu-btn{
 .home{
   height: 100vh;
   width: 100%;
-  /* background: url("https://github.com/Kapil987/contactKapil.github.io/blob/main/images/background.png") no-repeat; */
   background: url("lights.png") no-repeat;
   background-size: cover;
   background-position: center;
@@ -209,7 +208,7 @@ section .title{
   margin-bottom: 40px;
 }
 section .title span{
-  color: #0E2431;
+  color: #7427f5;
   font-size: 30px;
   font-weight: 600;
   position: relative;
@@ -251,7 +250,7 @@ section  .topic{
 }
 .about-details .right p{
   text-align: justify;
-  color: #0E2431;
+  color: #7427f5;
 }
 section .button{
   margin: 16px 0;
@@ -262,16 +261,16 @@ section .button button{
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #CCB3F6;
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 section .button button:hover{
-  border-color: #4070f4;
+  border-color: #CCB3F6;
   background-color: #fff;
-  color: #4070f4;
+  color: #CCB3F6;
 }
 
  /* My Skills CSS */
@@ -290,7 +289,7 @@ section .button button:hover{
    width: 50%;
  }
  .skills-details p{
-   color: #0E2431;
+   color: #7427f5;
    text-align: justify;
  }
 .skills .skills-details .experience{
@@ -299,11 +298,11 @@ section .button button:hover{
   margin: 0 10px;
 }
 .skills-details .experience .num{
-  color: #0E2431;
+  color: #7427f5;
   font-size: 80px;
 }
 .skills-details .experience .exp{
-  color: #0E2431;
+  color: #7427f5;
   margin-left: 20px;
   font-size: 18px;
   font-weight: 500;
@@ -351,7 +350,6 @@ section .button button:hover{
 .experience .boxes .box .icon{
   height: 50px;
   width: 50px;
-  /* background: #4070f4; */
   background: transparent;
   border-radius: 50%;
   text-align: center;
@@ -367,7 +365,7 @@ section .button button:hover{
 }
 .experience .boxes .box:hover .topic,
 .experience .boxes .box:hover p{
-  color: #0E2431;
+  color: #7427f5;
   transition: all 0.4s ease;
 }
 .experience .boxes .box:hover .topic,
@@ -441,7 +439,7 @@ footer .text span a:hover{
     width: 90%;
     margin: 40px 0;
   }
-  .services .boxes .box{
+  .experience .boxes .box{
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
@@ -461,7 +459,7 @@ footer .text span a:hover{
     position: fixed;
     left: -100%;
     top: 0;
-    background: #0E2431;
+    background: #7427f5;
     height: 100vh;
     max-width: 400px;
     width: 100%;
