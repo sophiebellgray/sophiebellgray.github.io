@@ -252,7 +252,7 @@ section  .topic{
 }
 .about-details .right p{
   text-align: justify;
-  color: #612bd6;
+  color: #0e2431;
 }
 section .button{
   margin: 16px 0;
@@ -346,7 +346,7 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .experience .boxes .box:hover{
-  background: #612bd6;
+  background: #896ec4;
   color: #fff;
 }
 .experience .boxes .box .icon{
@@ -364,7 +364,7 @@ section .button button:hover{
 }
 .boxes .box:hover .icon{
   background-color: #fff;
-  color: #612bd6;
+  color: #896ec4;
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
