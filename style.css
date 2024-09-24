@@ -127,10 +127,10 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 25px;
-  color: #FFF;
+  color: #FFFFFF;
 }
 .home .text-two{
-  color: #ede9f5;
+  color: #FFFFFF;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -138,12 +138,12 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #FFF;
+  color: #FFFFFF;
 }
 .home .text-four{
   font-size: 23px;
   margin: 5px 0;
-  color: #FFF;
+  color: #FFFFFF;
 }
 .home .button{
   margin: 14px 0;
@@ -155,7 +155,7 @@ nav.sticky .menu-btn{
   font-size: 25px;
   font-weight: 400;
   background: #6c24e0;
-  color: #fff;
+  color: #FFFFFF;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
