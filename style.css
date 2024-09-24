@@ -1,5 +1,5 @@
 /* Google Font CDN Link */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap')
 
 {
   margin: 0;
@@ -32,7 +32,7 @@ nav{
   padding: 20px 0;
   z-index: 998;
   transition: all 0.3s ease;
-  font-family: 'Gill Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 nav.sticky{
   background: #4070f4;
@@ -116,7 +116,7 @@ nav.sticky .menu-btn{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  font-family: 'Gill Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 .home .home-content{
   width: 90%;
@@ -128,10 +128,10 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 25px;
-  color: #80136d;
+  color: ##000066;
 }
 .home .text-two{
-  color: #e82ac8;
+  color: ##000066;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -139,12 +139,12 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #e82ac8;
+  color: ##000066;
 }
 .home .text-four{
   font-size: 23px;
   margin: 5px 0;
-  color: #e82ac8;
+  color: ##000066;
 }
 .home .button{
   margin: 14px 0;
@@ -197,7 +197,7 @@ section{
 section .content{
   width: 80%;
   margin: 40px auto;
-  font-family: 'Gill Sans', sans-serif;
+  font-family: 'Monsterrat', sans-serif;
 }
 .about .about-details{
   display: flex;
@@ -394,7 +394,7 @@ footer{
   background: #4070f4;
   padding: 15px 0;
   text-align: center;
-  font-family: 'Gill Sans', sans-serif;
+  font-family: 'Monsterrat', sans-serif;
 }
 footer .text span{
   font-size: 17px;
