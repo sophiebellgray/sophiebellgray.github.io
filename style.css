@@ -64,18 +64,18 @@ nav .navbar .menu li{
 .navbar .menu a{
   font-size: 18px;
   font-weight: 500;
-  color: #612bd6;
+  color: #24123b;
   padding: 6px 0;
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: #612bd6;
+  color: #24123b;
 }
 nav.sticky .menu a{
   color: #FFF;
 }
 nav.sticky .menu a:hover{
-  color: #612bd6;
+  color: #24123b;
 }
 .navbar .media-icons a{
   color: #4070f4;
@@ -99,7 +99,7 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: #4070f4;
+  color: #24123b;
 }
 nav.sticky .menu-btn{
   color: #FFF;
@@ -128,10 +128,10 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 50px;
-  color: #837694;
+  color: #FFF;
 }
 .home .text-two{
-  color: #837694;
+  color: #FFF;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -139,12 +139,12 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #837694;
+  color: #FFF;
 }
 .home .text-four{
   font-size: 23px;
   margin: 5px 0;
-  color: #837694;
+  color: #FFF;
 }
 .home .button{
   margin: 14px 0;
@@ -155,14 +155,14 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #24123b;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .home .button button:hover{
-  border-color: #4070f4;
+  border-color: #24123b;
   background-color: #fff;
   color: #4070f4;
 }
@@ -173,14 +173,14 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #24123b;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .fcc-btn:hover{
-  border-color: #4070f4;
+  border-color: #24123b;
   background-color: #fff;
   color: #4070f4;
 }
