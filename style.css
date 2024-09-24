@@ -48,6 +48,17 @@ nav .navbar{
   margin: auto;
 }
 
+nav .menu-btn,
+.navbar .menu .cancel-btn{
+  position: absolute;
+  color: #fff;
+  right: 30px;
+  top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: none;
+}
 
 nav .navbar .logo a{
   font-weight: 500;
