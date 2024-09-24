@@ -127,11 +127,11 @@ nav.sticky .menu-btn{
   justify-content: center;
 }
 .home .text-one{
-  font-size: 25px;
-  color: #100d14;
+  font-size: 50px;
+  color: #0E2431;
 }
 .home .text-two{
-  color: #100d14;
+  color: #0E2431;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -139,12 +139,12 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #100d14;
+  color: #0E2431;
 }
 .home .text-four{
   font-size: 23px;
   margin: 5px 0;
-  color: #100d14;
+  color: #0E2431;
 }
 .home .button{
   margin: 14px 0;
