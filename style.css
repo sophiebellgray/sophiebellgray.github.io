@@ -25,6 +25,7 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #612bd6;
 }
+
 /* navbar styling */
 nav{
   position: fixed;
@@ -38,13 +39,7 @@ nav.sticky{
   background: #612bd6;
   padding: 13px 0;
 }
-nav .navbar{
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-}
+
 nav .navbar .logo a{
   font-weight: 500;
   font-size: 35px;
@@ -86,18 +81,7 @@ nav.sticky .media-icons a{
   color: #FFF;
 }
 
-/* Side Navigation Menu Button CSS */
-nav .menu-btn,
-.navbar .menu .cancel-btn{
-  position: absolute;
-  color: #fff;
-  right: 30px;
-  top: 20px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: none;
-}
+
 nav .menu-btn{
   color: #612bd6;
 }
