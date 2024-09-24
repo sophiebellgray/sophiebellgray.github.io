@@ -34,7 +34,7 @@ nav{
   font-family: 'Ubuntu', sans-serif;
 }
 nav.sticky{
-  background: #4070f4;
+  background: #6B17F6;
   padding: 13px 0;
 }
 nav .navbar{
@@ -47,7 +47,7 @@ nav .navbar{
 nav .navbar .logo a{
   font-weight: 500;
   font-size: 35px;
-  color: #4070f4;
+  color: #6B17F6;
 }
 nav.sticky .navbar .logo a{
   color: #fff;
@@ -68,7 +68,7 @@ nav .navbar .menu li{
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: #4070f4;
+  color: #6B17F6;
 }
 nav.sticky .menu a{
   color: #FFF;
@@ -98,7 +98,7 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: #4070f4;
+  color: #6B17F6;
 }
 nav.sticky .menu-btn{
   color: #FFF;
@@ -128,10 +128,10 @@ nav.sticky .menu-btn{
 }
 .home .text-one{
   font-size: 25px;
-  color: #0E2431;
+  color: #CCB3F6;
 }
 .home .text-two{
-  color: #0E2431;
+  color: #CCB3F6;
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
@@ -139,12 +139,12 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #4070f4;
+  color: #CCB3F6;
 }
 .home .text-four{
   font-size: 23px;
   margin: 5px 0;
-  color: #0E2431;
+  color: #CCB3F6;
 }
 .home .button{
   margin: 14px 0;
@@ -155,14 +155,14 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #CCB3F6;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .home .button button:hover{
-  border-color: #4070f4;
+  border-color: #CCB3F6;
   background-color: #fff;
   color: #4070f4;
 }
@@ -173,14 +173,14 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #CCB3F6;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .fcc-btn:hover{
-  border-color: #4070f4;
+  border-color: #CCB3F6;
   background-color: #fff;
   color: #4070f4;
 }
@@ -190,8 +190,6 @@ nav.sticky .menu-btn{
 }
 
 /* About Section Styling */
-/* Those Elements Where We Have Apply Same CSS,
- I'm Selecting Directly 'Section Tag' and 'Class'  */
 section{
   padding-top: 40px;
 }
@@ -246,7 +244,7 @@ section .title span::after{
   width: 55%;
 }
 section  .topic{
-  color: #0E2431;
+  color: #b233ef;
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
