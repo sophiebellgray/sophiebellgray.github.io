@@ -243,7 +243,7 @@ section .title span::after{
   width: 55%;
 }
 section  .topic{
-  color: #b233ef;
+  color: #20042e;
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -298,11 +298,11 @@ section .button button:hover{
   margin: 0 10px;
 }
 .skills-details .experience .num{
-  color: #7427f5;
+  color: #20042e;
   font-size: 80px;
 }
 .skills-details .experience .exp{
-  color: #7427f5;
+  color: #20042e;
   margin-left: 20px;
   font-size: 18px;
   font-weight: 500;
@@ -320,11 +320,11 @@ section .button button:hover{
 }
 .skills-details .boxes .topic{
   font-size: 20px;
-  color: #6B17F6;
+  color: #20042e;
 }
 .skills-details .boxes .per{
   font-size: 60px;
-  color: #6B17F6;
+  color: #20042e;
 }
 
 /* My Experience CSS */
