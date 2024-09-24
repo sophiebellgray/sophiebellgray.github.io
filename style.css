@@ -40,6 +40,15 @@ nav.sticky{
   padding: 13px 0;
 }
 
+nav .navbar{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+
 nav .navbar .logo a{
   font-weight: 500;
   font-size: 35px;
