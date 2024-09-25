@@ -1,192 +1,383 @@
 <!DOCTYPE html>
-<!-- Inspired by Kapil987 -->
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Sophie's Portfolio Website </title>
-    <link rel="stylesheet" href="style.css">
-    
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
-<body>
-  
-  <!-- Move to up button -->
-  <div class="scroll-button">
-    <a href="#home"><i class="fas fa-arrow-up"></i></a>
-  </div>
-  
-  <!-- navgaition menu -->
-  <nav>
-    <div class="navbar">
-      <div class="logo"><a href="#">Portfolio.</a></div>
-      <ul class="menu">
-          <li><a href="#home">Home</a></li>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sophie Bell-Gray</div>
+      <div>
+        <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
           <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          </div>
-      </ul>
-      <p align="right"> 
-        <a href="https://www.linkedin.com/in/sophie-bell-gray/"> 
-          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="bash" width="40" height="40"/> </a>
-        <a href="https://github.com/sophiebellgray" target="_blank" rel="noreferrer"> 
-          <img src="https://cdn.cdnlogo.com/logos/g/55/github.svg" alt="aws" width="40" height="40"/> </a>  
-    </p>
-    </div>
-  </nav>
-
-<!-- Home Section Start -->
- <section class="home" id="home">
-   <div class="home-content">
-     <div class="text">
-       <div class="text-one">Hi,</div>
-       <div class="text-two">I'm Sophie Bell-Gray</div>
-       <div class="text-three">Data Analyst | Data Scientist</div>
-       <div class="text-four">Based in the UK</div>
-     </div>
-     <div class="button">
-       <a class="fcc-btn" href="https://www.linkedin.com/in/sophie-bell-gray/">Contact Me</a>  
-     </div>
-   </div>
- </section>
-
-</div>
-<!-- About Section Start -->
-<section class="about" id="about">
-  <div class="content">
-    <div class="title"><span>About Me</span></div>
-  <div class="about-details">
-    <div class="left">
-      <img src="profile_pic.png" alt="">
-    </div>
-    <div class="right">
-      <div class="topic">Data Analytics and Visualisation Are My Passion</div>
-      <p>Dynamic and detail-oriented Information and Data Analysis Lead with a proven track record of optimizing data processes and driving business growth. Possessing extensive experience in data analysis, Python, SQL, and strategic planning.</p>
-      <div class="button">
-        <!-- <button>Download CV</button> -->
-        <a href="CV_Sophie_BG.pdf"><button>Download CV</button></a>
+        </ul>
       </div>
-    </div>
-  </div>
-  </div>
-</section>
-
-<!-- My Skill Section Start -->
-<section class="skills" id="skills">
- <div class="content">
-   <div class="title"><span>My Top Skills</span></div>
-   <div class="boxes">   
-   <div class="skills-details">
-     <div class="text">
-       
-       <div class="topic"></div>
-       <p>The following are my top skills developed over my career either on the job in various industries, through higher education or additional skills I have researched. 
-       The percentages represent my confidence in my skills. I have worked in various analytics roles for over 6 years.</p>
-     </div>
-     <div class="boxes">
-       <div class="box">
-         <div class="topic">Power BI</div>
-         <div class="per">70%</div>
-       </div>
-       <div class="box">
-         <div class="topic">Tableau</div>
-         <div class="per">60%</div>
-       </div>
-       <div class="box">
-         <div class="topic">SQL</div>
-         <div class="per">70%</div>
-       </div>
-       <div class="box">
-         <div class="topic">Python</div>
-         <div class="per">60%</div>
-       </div>
-     </div>
-   </div>
- </div>
-</section>
-
-<!-- My Experience Section Start -->
- <section class="experience" id="experience">
-   <div class="content">
-     
-       <div class="title"><span>My Experience</span></div>    
-      
-     <div class="boxes">
-       <div class="box">
-       <div class="topic">Information and Data Analysis Lead</div>
-       <p>Working with senior leaders across a complex, multi-national programme to produce metrics, KPIs and dynamic dashboards.
-       Key Skills: Stakeholder management, Power BI, SQL.</p>
-       </div>
-
-       <div class="box">
-       <div class="topic">Data Science Practitioner</div>
-       <p>Working in an Agile Scrum Team providing data science support and creating best practice documents for the programme.
-       Key Skills: Technical writing, Python, SQL, Power BI.</p>
-       </div>
-
-       <div class="box">
-       <div class="topic">Asset Management & Database Analyst</div>
-       <p>Utilising Tableau to aide manufacturing reporting, including migration from Crystal to Tableau. Creation of a tool that resulted in the businesss saving £329k.
-       Key Skills: Tableau, SQL, Crystal Reporting.</p>
-     </div>
-       
-       <div class="box">    
-       <div class="topic">Board Trustee</div>
-       <p>A voluntary position in which I aide a charity with strategic decision making and governance.</p>
-     </div>
-       
-       <div class="box">
-       <div class="topic">Local Authority School Governor</div>
-       <p>Four year position ensuring the school achieves it's strategic aims, scrutinising outcomes, and mitigating financial risk. 
-       Current chair of Resources and Finance Committee.</p>
-     </div>
-       
-       <div class="box">       
-       <div class="topic">Previous Experience</div>
-       <p>My career began immediately after completing my Forensic Psychology masters degree working with victims of hate crime from reporting to recovery. I then moved into a research role at Lancashire Constabulary where I began learning SQL and Power BI. I then worked as a research assistant
-       at University of Central Lancashire before moving into a large defence company. </p>
-      </div>
-
-        <div class="box">
-        <div class="topic">Emphasis Effects Project</div>
-        <p>Submitted as final project for masters degree, 69% achieved. Includes full dissertation alongside full breakdown of project.
-        <a href="https://github.com/sophiebellgray/MSc_Dissertation/blob/main/README.md">View Final Project</a>
-        </p>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sophie Bell-Gray</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-
-       <div class="box">
-      <div class="topic">Deep Learning Project</div>
-         <p>Submitted for Deep Learning Module, 80% achieved. Demonstrates my understanding of deep learning and ability to code deep learning algorithms.
-          <a href="https://github.com/sophiebellgray/deep-learning/blob/main/README.md">View Deep Learning Project</a>  
-         </p>
-   </div>
-     </div>    
- </section>
-
-<!-- Contact Me section Start -->
-<section class="contact" id="contact">
-  <div class="content">
-    <div class="title"><span>Contact Me</span></div>
-    <div class="text">
-      <p>Happy to discuss any opportunities and connect to share best practices and ideas.</p>
-      <div class="button">
-        <!-- <button>Let's Chat</button> -->
-        <a class="fcc-btn" href="https://www.linkedin.com/in/sophie-bell-gray">Let's Connect</a>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- Footer Section Start -->
-<footer>
-  <div class="text">
-    <span>HTML Credit: <a href="#">Kapil987 (GitHub)</a> | &#169; Adapted: Sophie Bell-Gray</span>
-  </div>
-</footer>
-
-  <script src="script.js"></script>
-</body>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile_pic.png" alt="Sophie BG profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sophie Bell-Gray</h1>
+        <p class="section__text__p2">Data Analyst | Data Scientist</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV_Sophie_BG.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sophie-bell-gray'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/sophiebellgray'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/me.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>5+ years <br />Data Analytics</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>BSc & MSc Forensic Psychology<br />MSc Data Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a dynamic and detail-oriented Information and Data Analysis Lead with a proven track 
+              record of optimizing data processes and driving business growth. 
+              Possessing extensive experience in data analysis, Python, SQL, and strategic planning.
+              My career began with SQL and visualisation, I have further developed these skills and developed
+              myself. I then undertook a second masters degree in Data Science. 
+              My interest in analytics began with statistics and their use in psychology, a skill that I have 
+              since adapted to Data Science and other business use cases. 
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Analytics & Visualisation</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Seaborn</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MatPlotLib</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Data Science</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TensorFlow</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SciKitLearn</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Keras</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PyTorch</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/manmet.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Emphasis Effects on Data Visualisations</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/sophiebellgray/MSc_Dissertation/blob/main/README.md'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/sophiebellgray/MSc_Dissertation/blob/main/README.md'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/deeplearning.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">ISIC Deep Learning Project</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/sophiebellgray/deep-learning'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/sophiebellgray/deep-learning'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/machinelearning.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Machine Learning Project (holding)</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/sophiebellgray/machine-learning'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/sophiebellgray/machine-learning'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:sophiebellgray@gmail.com">sophiebellgray@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sophie-bell-gray/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Sophie Bell-Gray. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
